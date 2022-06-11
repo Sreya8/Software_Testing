@@ -1,12 +1,23 @@
 # Software_Testing
 Software Engineering Assignment 5: Coverage and Differential Testing
 
+## Tools
+1. Platform : Pycharm
+2. Language : Python2.7 , Python3.7
+3. Dependencies : Unittest
+
+## Execution
+git clone ''
+
 ## Testing Result 1
+Target project 1
+https://github.com/thomdixon/pysha2/tree/master/sha2
 
 ### Test Cases
-Case 1 checks whether the update function recieves input value as string using assertEqual 
+Case 1 checks whether the update function recieves input value as string using assertEquals 
 >````Coverage : 44%````
 </br>
+
 
 Case 2  checks whether an empty string is passed to update function using
 assertEquals 
@@ -26,6 +37,8 @@ Case 4 Checks for equality between object copied using deepcopy and the object
 <img width="390" alt="1_2" src="https://user-images.githubusercontent.com/54528672/173066528-857008d4-d43a-47e5-9825-822c5cc3247c.png">
 
 ## Testing Result 2
+Target Project 2
+https://github.com/keanemind/python-sha-256
 
 ### Test Cases
 Case 1 Checks whether the generated hash value for a string is equivalent to the given hash value
@@ -45,7 +58,8 @@ Case 3 Checks for TypeError  when input other than string and byte is passed
 <img width="430" alt="2_1" src="https://user-images.githubusercontent.com/54528672/173066553-31a674b2-ef47-435e-90e1-74bb27e01a5d.png">
 
 ## Testing Result 3
-
+Target Project 3
+https://github.com/Akif-G/sha256/blob/master/sha256.py
 ### Tests Cases
 Case 1 Checks whether the generated hash value is not equal to TypeError
 </br>
