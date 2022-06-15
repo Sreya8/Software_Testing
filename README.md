@@ -7,7 +7,9 @@ Software Engineering Assignment 5: Coverage and Differential Testing
 3. Dependencies : Unittest
 
 ## Execution
-git clone ''
+>````git clone https://github.com/Sreya8/Software_Testing.git````
+
+Navigate to the ````Software_Testing```` directory.
 
 ## Testing Result 1
 Target project 1
