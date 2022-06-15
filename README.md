@@ -31,8 +31,6 @@ https://github.com/Akif-G/sha256/blob/master/sha256.py:
 
 # Results
 ## Target Project 1
-Target project 1
-https://github.com/thomdixon/pysha2/tree/master/sha2
 <b><i>Python Version 2.7</i> </b></br>
 
 ### Test Cases
@@ -54,27 +52,26 @@ Test Case 4: Here we try to copy one sha256 object into a new object.
 >````Coverage : 97%````
 </br>
 
+### Final Branch Coverage
 <img width="390" alt="1_2" src="https://user-images.githubusercontent.com/54528672/173066528-857008d4-d43a-47e5-9825-822c5cc3247c.png">
 
-## Testing Result 2
-Target Project 2
-https://github.com/keanemind/python-sha-256
+## Target Project 2
+<b><i>Python Version 3.7</i> </b></br>
 
 ### Test Cases
-Case 1 Checks whether the generated hash value for a string is equivalent to the given hash value
+Test Case 1: Generating a Hash Value by passing an input paramater of the  ````String```` data type. In our case we pass the value "My Hash".
 >````Coverage 94%````
 </br>
 
-Case 2 check the equality between the given hash value and generated hash value for a given Byte input  
+Test Case 2: Generating a Hash Value by passing an input paramater of the  ````Byte```` data type in ````utf-8```` format. In our case we pass the value of "My Hash" in ````utf-8```` format.  
 >````Coverage 96%````
 </br>
 
-Case 3 Checks for TypeError  when input other than string and byte is passed
+Test Case 3: When we pass a paramater that is neither in ````String```` or in ````Byte```` data type. This should return a Type Error.
 >````Coverage 98%````
 </br>
 
-<b><i>Python Version 3.7</i> </b></br>
-
+### Final Branch Coverage
 <img width="430" alt="2_1" src="https://user-images.githubusercontent.com/54528672/173066553-31a674b2-ef47-435e-90e1-74bb27e01a5d.png">
 
 ## Testing Result 3
