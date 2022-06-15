@@ -4,7 +4,7 @@ Software Engineering Assignment 5: Coverage and Differential Testing
 ## Tools
 1. Platform : Pycharm
 2. Language : Python2.7 , Python3.7
-3. Dependencies : unittest
+3. Dependencies : unittest, coverage
 
 ### Note: Target Project 1 uses python2 and Target Projects 2 and 3 uses python3
 
