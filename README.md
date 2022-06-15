@@ -6,7 +6,7 @@ Software Engineering Assignment 5: Coverage and Differential Testing
 2. Language : Python2.7 , Python3.7
 3. Dependencies : unittest
 
-## Note: Target Project 1 uses python2 and Target projects 2 and 3 uses python3
+### Note: Target Project 1 uses python2 and Target Projects 2 and 3 uses python3
 
 ## Execution
 >````git clone https://github.com/Sreya8/Software_Testing.git````
@@ -38,15 +38,12 @@ https://github.com/Akif-G/sha256/blob/master/sha256.py:
 Test Case 1: First we initialize a new sha256 object with the String ````My Obj````. 
 This test case tries to update the value of the object with a new String value ````New String````
 >````Coverage : 44%````
-</br>
 
 Test Case 2: Here we pass an empty String as the value to be updated. The function must just return without updating the value.
 >````Coverage : 45%````
-</br>
 
 Test Case 3: Here we pass an integer value to be updated. If the input parameter is not a String we must get a Type Error.
 >````Coverage : 47%````
-</br>
 
 Test Case 4: Here we try to copy one sha256 object into a new object.
 >````Coverage : 97%````
@@ -61,11 +58,9 @@ Test Case 4: Here we try to copy one sha256 object into a new object.
 ### Test Cases
 Test Case 1: Generating a Hash Value by passing an input paramater of the  ````String```` data type. In our case we pass the value "My Hash".
 >````Coverage 94%````
-</br>
 
 Test Case 2: Generating a Hash Value by passing an input paramater of the  ````Byte```` data type in ````utf-8```` format. In our case we pass the value of "My Hash" in ````utf-8```` format.  
 >````Coverage 96%````
-</br>
 
 Test Case 3: When we pass a paramater that is neither in ````String```` or in ````Byte```` data type. This should return a Type Error.
 >````Coverage 98%````
@@ -78,7 +73,6 @@ Test Case 3: When we pass a paramater that is neither in ````String```` or in ``
 
 Test Case 1: Here we create a hash object with the ````String```` value ````"My Hash"```` and it should not return any errors.
 >````Coverage 94%````
-</br>
 
 Test Case 2: Here we create a hash object with the ````Integer```` value ````20```` and it should return a TypeError when the input parameter is not a ````String````.
 >````Coverage 95%````
